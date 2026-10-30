@@ -1,8 +1,8 @@
 # Welcome to Your First Pull Request
 
-GitHub is a place where people store, share, and improve projects together.
-You do not need to be a programmer to take part. If you can click buttons and
-type sentences, you can contribute.
+Hello, and welcome! GitHub is a place where people store, share, and improve
+projects together. You do not need to be a programmer to take part. If you can
+click buttons and type sentences, you can contribute.
 
 This manual walks you through the five things almost every beginner wants to
 do:
@@ -16,8 +16,9 @@ do:
 There is also a **printable contribution checklist** at the end to keep by
 your desk.
 
-Each section is written in plain English, step by step. Take it one click at
-a time. You cannot break anything by following these instructions.
+Each section is written in plain English, step by step. Take it one click at a
+time. You cannot break anything by following these instructions — everything
+you do here happens on a copy, so the original project stays safe.
 
 ---
 
@@ -28,8 +29,8 @@ a time. You cannot break anything by following these instructions.
 - Do one step, then look at your screen to confirm it happened before moving on.
 
 If a button name or menu looks slightly different on your screen, look for
-words that mean the same thing. GitHub changes its design now and then, but
-the ideas stay the same.
+words that mean the same thing. GitHub changes its design now and then, but the
+ideas stay the same.
 
 ---
 
@@ -61,6 +62,9 @@ That is it. You do not need to install anything for the first few sections.
 ## About Asdale Dynamics, LLC
 
 This guide was written by Dylan Asdale, founder of **Asdale Dynamics, LLC**
-(Indiana, formed October 2026). Asdale Dynamics publishes beginner-friendly
-AI education, books, guides, and practical tools — including this GitHub
-manual. Credit: Asdale Dynamics, LLC.
+(Indiana, formed October 2026). Dylan is a registered nurse turned AI author
+who writes *The Massive AI Manual* and runs dylanasdale.github.io, explaining
+AI "like a friend would": plain English, step by step, never condescending.
+
+Asdale Dynamics publishes beginner-friendly AI education, books, guides, and
+practical tools — including this GitHub manual. Credit: Asdale Dynamics, LLC.

@@ -2,11 +2,11 @@
 
 A **branch** is a separate work area for your changes. The main project
 usually lives on a branch called `main` (sometimes `master`). When you create
-your own branch, you can experiment freely without touching the main
-project.
+your own branch, you can experiment freely without touching the main project.
 
-Think of it like working on a photocopy of a single chapter instead of
-writing in the master book.
+Think of it like working on a photocopy of a single chapter instead of writing
+in the master book. Your changes stay on your branch until you are ready to
+share them.
 
 ---
 
@@ -14,7 +14,8 @@ writing in the master book.
 
 If you make changes directly on `main` and something goes wrong, the main
 project looks broken. With a branch, your changes stay isolated until you are
-ready to share them. You can have many branches for many different ideas.
+ready to share them. You can have many branches for many different ideas — one
+for fixing a typo, another for adding notes, another for trying something new.
 
 ---
 
@@ -79,8 +80,7 @@ Your branch and its changes now live on GitHub under your fork.
 
 - `git checkout -b` created a new branch and switched you to it.
 - `git add .` said "track all my changes."
-- `git commit` saved those changes with a message so you remember what you
-  did.
+- `git commit` saved those changes with a message so you remember what you did.
 - `git push` uploaded your branch to GitHub.
 
 ---
@@ -91,16 +91,21 @@ Your branch and its changes now live on GitHub under your fork.
 Yes. Create as many as you need, one per idea.
 
 **"What if I make a mistake on a branch?"**
-You can delete the branch and start over without touching `main`.
+You can delete the branch and start over without touching `main`. Your main
+project stays safe.
 
 **"Do I ever need to delete branches?"**
-After your changes are accepted into the project, you can delete the branch
-to keep things tidy.
+After your changes are accepted into the project, you can delete the branch to
+keep things tidy. It is optional.
 
 ---
 
 ## Next
 
 If you found a problem or want to suggest an idea, open an
-[Issue](05-issues.md). If you made a change you want to share, make a
-[Pull request](06-your-first-pull-request.md).
+[5. Issue](05-issues.md). If you made a change you want to share, make a
+[6. Pull request](06-your-first-pull-request.md).
+
+---
+
+*Written by **Asdale Dynamics, LLC** — beginner-friendly guides you can trust.*

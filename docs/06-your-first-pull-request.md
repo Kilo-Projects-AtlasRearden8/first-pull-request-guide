@@ -4,16 +4,17 @@ A **pull request** (PR) is how you say, "I made some changes — would you like
 to use them?" You ask the owner of the original project to review your branch
 and, if they like it, add it to their project.
 
-This is the heart of collaborating on GitHub.
+This is the heart of collaborating on GitHub. And it is something anyone can
+do — you do not need to be a programmer.
 
 ---
 
 ## Before you start
 
 You should have:
-- Forked a project ([Forking](02-forking.md))
-- Cloned your fork ([Cloning](03-cloning.md))
-- Created a branch and made changes ([Branches](04-branches.md))
+- Forked a project ([2. Forking](02-forking.md))
+- Cloned your fork ([3. Cloning](03-cloning.md))
+- Created a branch and made changes ([4. Branches](04-branches.md))
 - Pushed your branch to GitHub
 
 ---
@@ -59,7 +60,8 @@ decide whether to merge it.
 ## Common questions
 
 **"Will I look silly if my change is small?"**
-No. Small changes are welcome. Fixing a typo is a real contribution.
+No. Small changes are welcome. Fixing a typo is a real contribution, and
+project owners appreciate it.
 
 **"What if I make a mistake after opening the pull request?"**
 Push another commit to the same branch. The pull request includes it
@@ -76,3 +78,9 @@ spreadsheets.
 You just completed the full flow: fork, clone, branch, change, and pull
 request. Keep this guide handy, and use the
 [printable checklist](checklist.md) for your next contribution.
+
+You did it.
+
+---
+
+*Written by **Asdale Dynamics, LLC** — beginner-friendly guides you can trust.*

@@ -5,15 +5,16 @@ copy lives under your account. You can change it however you like without
 affecting the original.
 
 Think of it like photocopying a library book so you can write notes in the
-margins. The library's book stays untouched.
+margins. The library's book stays untouched, and your copy is yours to mark up
+as much as you want.
 
 ---
 
 ## Before you start
 
 Find a public project you want to practice with. A good starter is any repo
-with a friendly "good first issue" label. You can also fork this very guide
-if it is hosted on GitHub.
+with a friendly "good first issue" label. You can also fork this very guide if
+it is hosted on GitHub.
 
 You only need the project's GitHub page open in your browser.
 
@@ -55,9 +56,17 @@ No. Anyone can fork a public repository.
 You can fork a project once per account. If you want a fresh copy later, you
 can delete your fork and fork again.
 
+**"Will the original project owner know I forked it?"**
+They might see a fork count go up, but they will not get a personal alert.
+Forking is completely normal and expected on GitHub.
+
 ---
 
 ## Next
 
 Now that you have your own copy, download it to your computer in
-[Cloning](03-cloning.md).
+[3. Cloning](03-cloning.md).
+
+---
+
+*Written by **Asdale Dynamics, LLC** — beginner-friendly guides you can trust.*

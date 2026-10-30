@@ -4,14 +4,14 @@
 computer so you can work on it. Changes you make on your computer stay there
 until you choose to send them back to GitHub.
 
-Think of it like checking a book out of the library: you read it at home,
-then return it when you are done.
+Think of it like checking a book out of the library: you read it at home, make
+your notes, then return it when you are done.
 
 ---
 
 ## Before you start
 
-You should have already forked a project (see [Forking](02-forking.md)).
+You should have already forked a project (see [2. Forking](02-forking.md)).
 You need the web address of your fork, which looks like:
 
 ```
@@ -75,4 +75,8 @@ fork it first. Fork then clone is the beginner-friendly path.
 ## Next
 
 Before you make changes, set up a
-[Branch](04-branches.md) so your work stays separate from the main project.
+[4. Branch](04-branches.md) so your work stays separate from the main project.
+
+---
+
+*Written by **Asdale Dynamics, LLC** — beginner-friendly guides you can trust.*

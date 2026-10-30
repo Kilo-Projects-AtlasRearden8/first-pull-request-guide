@@ -4,7 +4,8 @@ An **issue** is a note on a project's page where people discuss bugs,
 questions, or ideas. You do not need to change any code to open an issue.
 Anyone can do it.
 
-Think of it like a suggestion box or a repair ticket for a project.
+Think of it like a suggestion box or a repair ticket for a project. It is a
+friendly way to start a conversation.
 
 ---
 
@@ -41,8 +42,7 @@ Your issue is now public on the project. Anyone can comment on it.
 ## What just happened?
 
 - GitHub created a numbered conversation page for your issue.
-- People working on the project can see it, discuss it, and decide what to
-  do.
+- People working on the project can see it, discuss it, and decide what to do.
 - You will get notifications when someone replies (unless you turn them off).
 
 ---
@@ -52,12 +52,16 @@ Your issue is now public on the project. Anyone can comment on it.
 - Be specific. "It is broken" is hard to fix. "The link on page 2 goes to a
   404 page" is easy.
 - Be kind. The people maintaining the project are often volunteers.
-- One issue per topic. If you found three typos, you can put them in one
-  issue or open three small ones — whichever feels clearer.
+- One issue per topic. If you found three typos, you can put them in one issue
+  or open three small ones — whichever feels clearer.
 
 ---
 
 ## Next
 
 If you fixed the issue yourself, share your fix with a
-[Pull request](06-your-first-pull-request.md).
+[6. Pull request](06-your-first-pull-request.md).
+
+---
+
+*Written by **Asdale Dynamics, LLC** — beginner-friendly guides you can trust.*
