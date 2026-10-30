@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3. Cloning &middot; Your First Pull Request &middot; Your First Pull Request</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+<header class="site-header">
+<div class="wrapper">
+<h1><a href="index.html">Your First Pull Request</a></h1>
+<p class="site-deck">A beginner&rsquo;s guide to GitHub &mdash; for non-programmers</p>
+</div>
+</header>
+
+<nav class="site-nav">
+<div class="wrapper">
+<ul><li><a href="index.html">Welcome</a></li><li><a href="01-what-is-github.html">1. What is GitHub?</a></li><li><a href="02-forking.html">2. Forking</a></li><li><a href="03-cloning.html" class="active">3. Cloning</a></li><li><a href="04-branches.html">4. Branches</a></li><li><a href="05-issues.html">5. Issues</a></li><li><a href="06-your-first-pull-request.html">6. Your first pull request</a></li><li><a href="checklist.html">Contribution checklist</a></li></ul>
+</div>
+</nav>
+
+<main class="wrapper">
+
+<h1>3. Cloning</h1>
+
+<p><strong>Cloning</strong> means downloading a copy of a GitHub repository to your own computer so you can work on it. Changes you make on your computer stay there until you choose to send them back to GitHub.</p>
+
+<p>Think of it like checking a book out of the library: you read it at home, then return it when you are done.</p>
+
+<hr>
+
+<h2>Before you start</h2>
+
+<p>You should have already forked a project (see <a href="02-forking.md">Forking</a>). You need the web address of your fork, which looks like:</p>
+
+<pre><code>https://github.com/your-username/project-name.git</code></pre>
+
+<hr>
+
+<h2>Step-by-step: clone your fork</h2>
+
+<ol><li>Go to your fork's page on GitHub.</li><li>Find the green <strong>Code</strong> button near the top of the file list.</li><li>Click it, then make sure the <strong>HTTPS</strong> tab is selected.</li><li>Copy the web address that appears.</li><li>Open a terminal on your computer:</li></ol>
+<p>   - <strong>Windows:</strong> open Command Prompt or PowerShell    - <strong>Mac:</strong> open Terminal    - <strong>Linux:</strong> open Terminal</p>
+<ol><li>Type <code>git clone</code> followed by the address you copied, then press Enter:</li></ol>
+
+<p>   ``<code>    git clone https://github.com/your-username/project-name.git    </code>``</p>
+
+<ol><li>Wait for the download to finish.</li><li>Go into the new folder:</li></ol>
+
+<p>   ``<code>    cd project-name    </code>``</p>
+
+<p>You now have a local copy of the project on your computer.</p>
+
+<hr>
+
+<h2>What just happened?</h2>
+
+<ul><li>Git created a new folder on your computer containing every file from the</li></ul>
+<p>  project, plus the full history.</p>
+<ul><li>Your local copy remembers where it came from on GitHub (called <code>origin</code>).</li><li>You can edit files, add files, or delete files here without anyone else</li></ul>
+<p>  seeing them yet.</p>
+
+<hr>
+
+<h2>Common questions</h2>
+
+<p><strong>"Do I have to use the command line?"</strong> For cloning, yes — but only these few commands. Everything else in this guide can be done in your web browser if you prefer.</p>
+
+<p><strong>"What if I get an error saying git is not found?"</strong> Install Git from git-scm.com, then try again.</p>
+
+<p><strong>"Can I clone without forking first?"</strong> Yes, but you cannot send changes back to a project you do not own unless you fork it first. Fork then clone is the beginner-friendly path.</p>
+
+<hr>
+
+<h2>Next</h2>
+
+<p>Before you make changes, set up a <a href="04-branches.md">Branch</a> so your work stays separate from the main project.</p>
+</main>
+
+<footer class="site-footer">
+<div class="wrapper">
+<p>Written and published by <strong>Asdale Dynamics, LLC</strong>
+&middot; Copyright (c) 2026 Asdale Dynamics, LLC &middot;
+<a href="LICENSE.html">MIT License</a></p>
+</div>
+</footer>
+</body>
+</html>

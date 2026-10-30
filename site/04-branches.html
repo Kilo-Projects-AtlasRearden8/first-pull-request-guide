@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4. Branches &middot; Your First Pull Request &middot; Your First Pull Request</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+<header class="site-header">
+<div class="wrapper">
+<h1><a href="index.html">Your First Pull Request</a></h1>
+<p class="site-deck">A beginner&rsquo;s guide to GitHub &mdash; for non-programmers</p>
+</div>
+</header>
+
+<nav class="site-nav">
+<div class="wrapper">
+<ul><li><a href="index.html">Welcome</a></li><li><a href="01-what-is-github.html">1. What is GitHub?</a></li><li><a href="02-forking.html">2. Forking</a></li><li><a href="03-cloning.html">3. Cloning</a></li><li><a href="04-branches.html" class="active">4. Branches</a></li><li><a href="05-issues.html">5. Issues</a></li><li><a href="06-your-first-pull-request.html">6. Your first pull request</a></li><li><a href="checklist.html">Contribution checklist</a></li></ul>
+</div>
+</nav>
+
+<main class="wrapper">
+
+<h1>4. Branches</h1>
+
+<p>A <strong>branch</strong> is a separate work area for your changes. The main project usually lives on a branch called <code>main</code> (sometimes <code>master</code>). When you create your own branch, you can experiment freely without touching the main project.</p>
+
+<p>Think of it like working on a photocopy of a single chapter instead of writing in the master book.</p>
+
+<hr>
+
+<h2>Why branches matter</h2>
+
+<p>If you make changes directly on <code>main</code> and something goes wrong, the main project looks broken. With a branch, your changes stay isolated until you are ready to share them. You can have many branches for many different ideas.</p>
+
+<hr>
+
+<h2>Step-by-step: create and use a branch</h2>
+
+<p>You do this in your terminal, inside the project folder you cloned.</p>
+
+<ol><li>Make sure you are on the main branch:</li></ol>
+
+<p>   ``<code>    git checkout main    </code>``</p>
+
+<ol><li>Update your local copy with any changes from GitHub:</li></ol>
+
+<p>   ``<code>    git pull origin main    </code>``</p>
+
+<ol><li>Create a new branch with a short, descriptive name:</li></ol>
+
+<p>   ``<code>    git checkout -b fix-typo-in-readme    </code>``</p>
+
+<p>   Good names: <code>fix-typo</code>, <code>add-chapter-notes</code>, <code>update-schedule</code>.    Avoid spaces and special characters.</p>
+
+<ol><li>Confirm you are on the new branch:</li></ol>
+
+<p>   ``<code>    git branch    </code>``</p>
+
+<p>   The branch with an asterisk (*) next to it is the one you are on.</p>
+
+<ol><li>Make your changes: edit a file, add a note, fix a typo. Save the file.</li></ol>
+
+<ol><li>Tell Git to track your changes:</li></ol>
+
+<p>   ``<code>    git add .    </code>``</p>
+
+<ol><li>Save the changes with a message:</li></ol>
+
+<p>   ``<code>    git commit -m &quot;Fix typo in welcome sentence&quot;    </code>``</p>
+
+<ol><li>Send the branch to GitHub:</li></ol>
+
+<p>   ``<code>    git push origin fix-typo-in-readme    </code>``</p>
+
+<p>Your branch and its changes now live on GitHub under your fork.</p>
+
+<hr>
+
+<h2>What just happened?</h2>
+
+<ul><li><code>git checkout -b</code> created a new branch and switched you to it.</li><li><code>git add .</code> said "track all my changes."</li><li><code>git commit</code> saved those changes with a message so you remember what you</li></ul>
+<p>  did.</p>
+<ul><li><code>git push</code> uploaded your branch to GitHub.</li></ul>
+
+<hr>
+
+<h2>Common questions</h2>
+
+<p><strong>"Can I have more than one branch?"</strong> Yes. Create as many as you need, one per idea.</p>
+
+<p><strong>"What if I make a mistake on a branch?"</strong> You can delete the branch and start over without touching <code>main</code>.</p>
+
+<p><strong>"Do I ever need to delete branches?"</strong> After your changes are accepted into the project, you can delete the branch to keep things tidy.</p>
+
+<hr>
+
+<h2>Next</h2>
+
+<p>If you found a problem or want to suggest an idea, open an <a href="05-issues.md">Issue</a>. If you made a change you want to share, make a <a href="06-your-first-pull-request.md">Pull request</a>.</p>
+</main>
+
+<footer class="site-footer">
+<div class="wrapper">
+<p>Written and published by <strong>Asdale Dynamics, LLC</strong>
+&middot; Copyright (c) 2026 Asdale Dynamics, LLC &middot;
+<a href="LICENSE.html">MIT License</a></p>
+</div>
+</footer>
+</body>
+</html>
