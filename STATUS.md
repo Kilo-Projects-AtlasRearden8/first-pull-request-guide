@@ -18,6 +18,9 @@ author, founder of Asdale Dynamics, LLC, Indiana, formed October 2026).
 each explained in plain English with step-by-step clicks and commands, plus a
 printable checklist.
 
+**Tone:** Warm, encouraging, non-condescending, "like a friend would."
+Every doc page closes with a credit to Asdale Dynamics, LLC.
+
 ## How to run
 
 - Read online/offline: open any file in `site/` in a web browser. No build step
@@ -37,7 +40,7 @@ All checks pass (`python3 validate_site.py`):
 - `README.md` credits Asdale Dynamics, LLC
 - No `.github/workflows` directory present
 - No secret/API-key patterns found in any file
-- Git initialized locally with one commit (`9ad49d1 Add beginner GitHub manual with static HTML site`, plain message, no co-author trailers)
+- Git initialized locally with three commits, plain messages, no co-author trailers
 - Nothing pushed, no remote created, nothing published
 
 ## Known gaps
@@ -49,3 +52,9 @@ All checks pass (`python3 validate_site.py`):
 - The guide has not been pushed to GitHub or published anywhere, by design.
 - Print stylesheets were checked as `media=print` rules, not literally printed
   on paper.
+
+## Git history
+
+- `9ad49d1` Add beginner GitHub manual with static HTML site
+- `21fc519` Add STATUS.md
+- `7757e0b` Improve README and docs tone, add credit footers, rebuild HTML site
